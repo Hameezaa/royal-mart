@@ -1,0 +1,302 @@
+/* tags */
+h1 {
+  font-family: 'Itim', cursive;
+  padding-top: 10%;
+  text-decoration: underline;
+}
+h2{
+    font-family: 'Itim', cursive;
+    text-align: center;
+      text-decoration: underline;
+}
+h3{
+  font-family: 'Montserrat', sans-serif;
+    text-decoration: underline;
+}
+
+body {
+  font-family: 'Roboto Mono', monospace;
+overflow-x: hidden;
+
+}
+
+/* images */
+.img1 {
+  width: 100px;
+}
+
+
+
+.trolley-img {
+  width: 250px;
+  height: 250px;
+  float: left;
+  margin-right: 70px;
+}
+
+.beef-img {
+  width: 300px;
+  height: 400px;
+  float: left;
+  margin-right: 70px;
+  position: absolute;
+  z-index: 1;
+  left: 0;
+}
+
+.shelves-img {
+  height: 400px;
+  position: absolute;
+  z-index: 3;
+  top: 800px;
+  left: 1100px;
+}
+
+ .store-img{
+   width: 500px;
+   position: relative;
+   left: 32%;
+ }
+ .everything-store{
+   width: 400px;
+   position: relative;
+   z-index: 1;
+   float: left;
+ }
+
+.events-img{
+  padding-right: 200%;
+  width: 300%;
+}
+.profile-img{
+  border-radius: 100%;
+  width: 50px;
+  float: left;
+  margin-right: 2%;
+}
+
+/* divs */
+.div1 {
+  padding-left: 700px;
+}
+
+.white {
+  background-color: white;
+  margin-left: 50px;
+  height: 300px;
+  border-right-width: 200px;
+  margin-top: 40%;
+
+  padding-right: 450px;
+}
+
+.grey {
+  background-color: #90A17D;
+  padding-right: 500px;
+  border-right-width: 200px;
+  height: 650px;
+}
+.blue{
+  padding-top: 10%;
+  background-color: #E3F6FF;
+height: 600px;
+}
+
+.promotion-big{
+  padding-top: 1%;
+  padding-right: 5%;
+  padding-left: 5%;
+width: 150%;
+overflow-x: scroll;
+}
+.promotion-events{
+width: 200%;
+padding: 0;
+}
+.carrier-big{
+ width: 1500px;
+ overflow-x: scroll;
+
+}
+.carrier-small{
+  width: 2700px;
+}
+.carrier{
+  border: 0.1rem solid grey ;
+  margin: 30px;
+  width: 500px;
+  padding: 2%;
+}
+
+/* sections */
+#section-top {
+
+  color: white;
+  background-color: black;
+}
+#video-section{
+  position: absolute;
+  z-index: 1;
+  top: 808;
+  width: 100%;
+  height: 100%;
+  padding-bottom: 20%;
+}
+#Products-Services {
+  text-align: center;
+  line-height: 1.5;
+
+}
+#our-stores{
+  margin-top: 200px;
+  margin-bottom: 100px;
+  background-color:#FDF6F0;
+  height: 520px;
+  padding-top: 20px;
+
+}
+
+#photo-section{
+padding-bottom: 10%;
+}
+#empty{
+  height: 500px;
+  background-color: grey;
+}
+#footer{
+  text-align: center;
+  padding: 5%;
+}
+
+/* text */
+.grey-text {
+  position: relative;
+  top: 0;
+  left: 8%;
+  z-index:3;
+  color: white;
+}
+
+.p {
+  position: absolute;
+  left: 340px;
+  padding-right: 600px;
+  margin-left: 100px;
+
+}
+.p2{
+  padding-right:100px;
+}
+.blue-text{
+  position: relative;
+  top: 1%;
+  right:10%;
+  z-index: 3;
+  padding-top: 5%;
+  color: white;
+}
+.carrier-p{
+  /* padding: 5%; */
+  font-family: 'Montserrat', sans-serif;
+}
+
+
+@media (max-width: 1000px){
+  body{
+   text-align: center;
+    padding: 0;
+  }
+
+
+  img{
+    padding-left: 0;
+    width: 70%;
+  }
+
+  .text-big{
+    font-size: 1.5rem;
+  padding: 0;
+  margin-top: 0;
+  color: #20262E;
+  position: relative;
+  top: 0;
+  }
+
+
+  .img1{width: 15%;}
+  #section-top{
+    width: 100%;
+  }
+  #video-section{
+    width: 100%;
+    height: 700px;
+    position: relative;
+
+  }
+  #footer{
+    text-decoration: none;
+    font-size: 6%;
+  }
+.white{
+  height: 300%;
+  margin-left: 0%;
+  height:100%;
+  margin-top: 8%;
+  width: 170%;
+  margin-bottom: 10%;
+/* display: none; */
+}
+.p2{
+  padding-right: 0;
+padding-left: 4%;
+}
+.trolley-img{ height: 10%;
+  float: left;
+margin-right: 0;
+padding-right: 6%;
+padding-bottom: 12%;
+}
+.grey{
+  height:450px;
+}
+.grey-text{
+color: black;
+position: relative;
+z-index: 1;
+}
+.p{
+  padding-right: 4px;
+  margin-left: 0;
+  padding-left: 1px;
+}
+.store-img{
+  position: relative;
+  left: 3%;
+}
+.everything-store{
+  width: 50%;
+}
+.blue{
+  height: 400px;
+  margin-bottom: 6%;
+}
+
+
+.carrier-big{width: 200%;
+  overflow-x: scroll;
+}
+.carrier-small{
+  width: 250%;
+}
+.carrier{
+  width: 10%;
+  height: 30%;
+  padding: 01rem;
+}
+#empty{
+  height: 200px;
+}
+.shelves-img{
+  display: none;
+}
+}
